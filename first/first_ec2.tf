@@ -1,7 +1,7 @@
 provider "aws" {
   region = "eu-west-2"
-  access_key = "ASDA"
-  secret_key = "TESCO"
+  access_key = var.ACCESS
+  secret_key = var.SECRET
 }
 
 resource "aws_instance" "myec2" {
