@@ -8,11 +8,11 @@ terraform {
 }
 
 provider "github" {
-  token = "TOKEN_HERE"
+  token = "TOKEN"
 }
 
 resource "github_repository" "example" {
   name        = "terraform-repo"
   visibility = "private"
-
 }
+
